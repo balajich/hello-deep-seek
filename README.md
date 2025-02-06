@@ -1,10 +1,10 @@
 # Running Deepseek locally
 This is an attempt to run the DeepSeek R1 model locally on my laptop. Let's greet DeepSeek and get a response from it. We will download the pretrained DeepSeek-R1-Distill-Qwen-1.5B model using the Transformers library provided by Hugging Face, which will typically fetch it from the Hugging Face Model Hub
 # Configuration 
-- CPU -  Processor	12th Gen Intel(R) Core(TM) i7-12800H, 2400 Mhz, 14 Core(s), 20 Logical Processor(s)
-- GPU - NVDIA RTX A2000 8GB
-- Physical memory - 32 GB
-- Download CUDA and CUDANN from Nvidia that supports your GPU
+- CPU: 12th Gen Intel(R) Core(TM) i7-12800H, 2400 MHz, 14 cores, 20 logical processors 
+- GPU: NVIDIA RTX A2000 8GB 
+- Physical Memory: 32 GB
+- Download the appropriate versions of CUDA and cuDNN from NVIDIA to ensure compatibility with your GPU
 # Github Repo
 - https://github.com/balajich/hello-deep-seek.git
 # Prerequisites
