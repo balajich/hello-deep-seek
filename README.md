@@ -1,15 +1,16 @@
 # Running Deepseek locally
-This is an attempt to run deep seek r1 model locally on my laptop. 
+This is an attempt to run deep seek r1 model locally on my laptop.
+Lets say hello to deepseek and receive a response from it/
 We are going download the pretrained model DeepSeek-R1-Distill-Qwen-1.5B  using the transformers library by provided by Hugging Face, which would typically download it from the Hugging Face Model Hub.
 
-
-# Configuration & Prerequisites
+# Configuration 
 - CPU -  Processor	12th Gen Intel(R) Core(TM) i7-12800H, 2400 Mhz, 14 Core(s), 20 Logical Processor(s)
 - GPU - NVDIA RTX A2000 8GB
 - Physical memory - 32 GB
 - Download CUDA and CUDANN from Nvidia that supports your GPU
-- Install torch libraries that supports cuda
-- pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# Github Repo
+- https://github.com/balajich/hello-deep-seek.git
+# Prerequisites
 ```bash
 cd C:\deep-seek
 set PYTHONHOME=C:\soft\python-3.9.13
