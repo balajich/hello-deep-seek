@@ -6,7 +6,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
 # Prepare input text
-input_text = "In which continent do we have Brazil"
+input_text = "Hello DeepSeek"
 inputs = tokenizer(input_text, return_tensors="pt")
 
 # Generate text
